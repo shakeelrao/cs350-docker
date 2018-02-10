@@ -37,7 +37,7 @@ The next step is to start the container and set-up the volume. In the root direc
 docker run -v "$(pwd)/cs350-os161:/root/cs350-os161" -it 3uclid/cs350:1.0 /bin/bash
 ```
 
-This will create an interactive shell attached to the container.
+This will create an interactive shell attached to the container:
 
 ```
 root@dcc24ce3533d:~# ls
