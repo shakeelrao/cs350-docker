@@ -11,8 +11,8 @@ To install Docker, refer to the official [docs](https://docs.docker.com/install/
 To set-up the environment, create a dedicated directory for CS 350 and then download + run `install.sh`:
 
 ```
-mkdir ~/cs350
-cd ~/cs350
+mkdir cs350
+cd cs350
 curl -O https://raw.githubusercontent.com/shakeelrao/cs350-docker/master/install.sh
 bash install.sh
 ```
@@ -20,7 +20,7 @@ bash install.sh
 The installation script will pull the image from Docker Hub and create the following directory structure:
 
 ```
-~/cs350/
+cs350/
 |-- install.sh
 |-- cs350-os161/
 |   |-- os161-1.99/
@@ -47,7 +47,7 @@ archive  cs350-os161  init.sh  sys161
 Next, run `bash init.sh` to build the kernel. After the script finishes, press `CTRL p+q` to detach from the container.
 
 ## Workflow
-1. Modify the kernel source code locally (on the host)
+1. Modify the kernel source code locally
 2. Attach to the container: `docker exec -it CONTAINER_ID /bin/bash`
 3. Build and run the kernel
 4. Repeat!
