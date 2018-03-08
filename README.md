@@ -2,10 +2,10 @@
 A containerized [CS 350](https://www.student.cs.uwaterloo.ca/~cs350) development environment.
 
 ## Prerequisites
-* A *nix environment
+* *nix environment
 * Docker 
 
-To install Docker, refer to the official [docs](https://docs.docker.com/install/).
+To install Docker, refer to the official [documentation](https://docs.docker.com/install/).
 
 ## Installation
 To set-up the environment, create a dedicated directory for CS 350 and then download + run `install.sh`:
